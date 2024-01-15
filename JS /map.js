@@ -19,13 +19,13 @@ var locations = [
         name: "Marheineke Markthalle",
         coords: [52.48922871774201, 13.394424191124616],
         label: "Historical",
-        imageUrl: "path-to-image-for-Marheineke.jpg" // Replace with actual image path
+        imageUrl: "../Materials /images/Marheineke-Markthalle_B-Kreuzberg_06-2017_img1.jpg" // Replace with actual image path
     },
     {
         name: "Passionskirche",
         coords: [52.48942454811764, 13.39713715986819],
         label: "Historical",
-        imageUrl: "path-to-image-for-Passionskirche.jpg" // Replace with actual image path
+        imageUrl: "../Materials /images/Passionskirche.jpeg" // Replace with actual image path
     }
 ];
 
@@ -35,7 +35,7 @@ locations.forEach(function(location) {
         color: 'red',
         fillColor: '#f03',
         fillOpacity: 0.5,
-        radius: 10
+        radius: 15
     }).addTo(map);
 
     circle.on('click', function() {
@@ -46,13 +46,17 @@ locations.forEach(function(location) {
 // Function to open lightbox
 function openLightbox(location) {
     var lightbox = document.querySelector('.lightbox');
+    var lightboxClose = document.querySelector('.lightboxClose');
     var lightboxContent = document.querySelector('.lightbox-content');
 
+    
+    
     lightboxContent.innerHTML = `
-        <img src="${location.imageUrl}" alt="${location.name}">
-        <p>${location.name} - ${location.label}</p>
-        <button onclick="closeLightbox()">X</button>
+
+        <img class="lightbox-img" src="${location.imageUrl}" alt="${location.name}">
+        <p class="lightboxText">${location.name} - ${location.label}</p>
     `;
+    lightboxClose.innerHTML = `<button class="LightboxBtn" onclick="closeLightbox()">X</button>`;
 
     lightbox.style.display = 'block';
 }

@@ -11,15 +11,61 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     z-index: 1000;
 }
 
 .lightbox-content {
-    background: white;
+    /* background: white; */
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
     padding: 20px;
+}
+
+.lightbox-img{
+    height: 50%;
+    align-self: center;
+}
+
+
+.lightboxClose{
+    padding-top: 20px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.LightboxBtn{
+ 
+        background-color: #ffffff; /* Light grey background */
+        color: #000000; /* Dark text color */
+        border: 1px solid #ccc; /* Light grey border */
+        padding: 10px 20px; /* Some padding around the text */
+        text-align: center; /* Center the text inside the button */
+        text-decoration: none; /* Remove text underline */
+        display: inline-block; /* Allows setting width and height */
+        font-size: 20px; /* Specific font size */
+        margin: 4px 2px; /* Some margin around the button */
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
+
+    
+    
+    
+}
+
+.LightboxBtn:hover {
+    cursor: pointer;
+    background-color: #b8b8b8; /* Darker grey background on hover */
+}
+
+.lightboxText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
 }
