@@ -1,0 +1,80 @@
+a:link, a:visited {
+    color: black; /* Sets the color of the link to black */
+    text-decoration: none; /* Optional: Removes the underline from the link */
+}
+
+a:hover, a:active {
+    color: black; /* Keeps the color black even when hovered or active */
+}
+
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 40px;
+}
+
+
+
+.burger-menu {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Start off-screen to the right */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: right 1.9s ease-in; /* Smooth transition for the 'right' property */
+    z-index: 1001;
+
+}
+
+/* When the overlay is active, it should slide in from the right */
+.overlay.active {
+    right: 0;
+}
+
+.overlay-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    align-items: stretch;
+    width: auto;
+    height: 100%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 100px;
+    text-align: left;
+}
+
+.menu-item:hover{
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    cursor: pointer;
+}

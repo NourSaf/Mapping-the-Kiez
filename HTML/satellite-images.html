@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPING THE KIEZ</title>
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="../CSS/index.css">
+    <!-- Leaflet CSS -->
+    <!-- <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>    -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>   
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+</head>
+
+    <body>
+
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="../index.html">
+                <img src="../Materials /Logo/4x/Artboard 1@4x.png" alt="Logo">
+                    <!-- We need a logo here, will create it later. For now we can use a background with a color-->
+            </div></a>
+    
+    
+                <!-- Burger Menu Icon -->
+            <div class="burger-menu" onclick="toggleOverlay()">☰</div>
+    
+            <!-- Overlay -->
+            <div id="menu-overlay" class="overlay" style="display: none;">
+                <div class="overlay-content">
+                    <a href="../index.html"><div class="menu-item">HOME</div></a>
+                    <a href="./timeline.html"> <div class="menu-item">TIMELINE</div></a>
+                    <a href="./satellite-images.html"> <div class="menu-item">SATELLITE IMAGES</div></a>
+                    <div class="close-btn" onclick="toggleOverlay()"></div>
+                    <!-- Add your menu content here -->
+                </div>
+            </div>
+    
+    
+        </nav>
+
+
+    <!-- Gif Section -->
+    <section class="herosection">
+        <div class="header">
+            <H1>Satellite Images</H1>
+            <p>What are satellite images and what is the intention showing them here?</p>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section">
+        <div class="grid-container">
+            <!-- Row 1 -->
+            <div class="grid-item">
+                <img src="../Materials /gifs/Fals color composite.gif" alt="Gif 1"> <!-- Replace with actual gif path -->
+                <div class="text-content">Fals Color Composite</div>
+            </div>
+            <!-- Row 2 -->
+            <div class="grid-item">
+                <img src="../Materials /gifs/Moisture_2016-2024.gif" alt="Gif 2"> <!-- Replace with actual gif path -->
+                <div class="text-content">Moisture Index</div>
+            </div>
+            <!-- Row 3 -->
+            <div class="grid-item">
+                <img src="../Materials /gifs/Normalized Difference Vegetation Index (NDVI).gif" alt="Gif 3"> <!-- Replace with actual gif path -->
+                <div class="text-content">Normalized Difference Vegetation Index (NDVI)</div>
+            </div>
+        </div>
+    </section>
+<script src="../JS /burger-menu.js"></script>
+</body>
+</html>
