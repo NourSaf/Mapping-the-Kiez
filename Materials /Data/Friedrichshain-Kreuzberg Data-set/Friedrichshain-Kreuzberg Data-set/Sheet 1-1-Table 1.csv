@@ -1,0 +1,104 @@
+Bezirksnummer;Bezirksname;Stimmbezirk;Stimmbezirksart;Stimmberechtigte insgesamt;Stimmberechtigte A1;Stimmberechtigte A2;Stimmberechtigte A3;Teilnehmer;Teilnehmer B1;Ungültige Stimmen;Gültige Stimmen;JA;NEIN
+02;Friedrichshain-Kreuzberg;1A ;Briefwahlbezirk;0;0;0;0;686;686;2;684;349;335
+02;Friedrichshain-Kreuzberg;1B ;Briefwahlbezirk;0;0;0;0;810;810;1;809;399;410
+02;Friedrichshain-Kreuzberg;1C ;Briefwahlbezirk;0;0;0;0;853;853;0;853;386;467
+02;Friedrichshain-Kreuzberg;1D ;Briefwahlbezirk;0;0;0;0;793;793;4;789;339;450
+02;Friedrichshain-Kreuzberg;1E ;Briefwahlbezirk;0;0;0;0;803;803;1;802;326;476
+02;Friedrichshain-Kreuzberg;1F ;Briefwahlbezirk;0;0;0;0;693;693;3;690;304;386
+02;Friedrichshain-Kreuzberg;1G ;Briefwahlbezirk;0;0;0;0;690;690;1;689;300;389
+02;Friedrichshain-Kreuzberg;1H ;Briefwahlbezirk;0;0;0;0;788;788;3;785;351;434
+02;Friedrichshain-Kreuzberg;1J ;Briefwahlbezirk;0;0;0;0;683;683;0;683;279;404
+02;Friedrichshain-Kreuzberg;1K ;Briefwahlbezirk;0;0;0;0;656;656;3;653;278;375
+02;Friedrichshain-Kreuzberg;1L ;Briefwahlbezirk;0;0;0;0;674;674;0;674;282;392
+02;Friedrichshain-Kreuzberg;1M ;Briefwahlbezirk;0;0;0;0;682;682;3;679;277;402
+02;Friedrichshain-Kreuzberg;1N ;Briefwahlbezirk;0;0;0;0;688;688;1;687;262;425
+02;Friedrichshain-Kreuzberg;1O ;Briefwahlbezirk;0;0;0;0;678;678;2;676;295;381
+02;Friedrichshain-Kreuzberg;1P ;Briefwahlbezirk;0;0;0;0;682;682;0;682;271;411
+02;Friedrichshain-Kreuzberg;1Q ;Briefwahlbezirk;0;0;0;0;683;683;2;681;288;393
+02;Friedrichshain-Kreuzberg;101;Urnenwahlbezirk;1915;1815;100;0;372;1;5;367;204;163
+02;Friedrichshain-Kreuzberg;102;Urnenwahlbezirk;982;908;74;0;201;0;0;201;120;81
+02;Friedrichshain-Kreuzberg;103;Urnenwahlbezirk;705;655;50;0;170;2;0;170;119;51
+02;Friedrichshain-Kreuzberg;104;Urnenwahlbezirk;943;858;85;0;212;0;0;212;120;92
+02;Friedrichshain-Kreuzberg;105;Urnenwahlbezirk;3476;3103;373;0;982;3;2;980;486;494
+02;Friedrichshain-Kreuzberg;106;Urnenwahlbezirk;2602;2287;315;0;819;3;3;816;408;408
+02;Friedrichshain-Kreuzberg;107;Urnenwahlbezirk;1412;1233;179;0;474;1;2;472;237;235
+02;Friedrichshain-Kreuzberg;108;Urnenwahlbezirk;3730;3330;400;0;1244;6;1;1243;612;631
+02;Friedrichshain-Kreuzberg;109;Urnenwahlbezirk;977;874;103;0;344;0;0;344;127;217
+02;Friedrichshain-Kreuzberg;110;Urnenwahlbezirk;2330;2083;247;0;759;0;1;758;275;483
+02;Friedrichshain-Kreuzberg;111;Urnenwahlbezirk;2339;2123;216;0;761;0;3;758;335;423
+02;Friedrichshain-Kreuzberg;112;Urnenwahlbezirk;2531;2317;214;0;811;2;2;809;355;454
+02;Friedrichshain-Kreuzberg;113;Urnenwahlbezirk;1257;1172;85;0;318;2;0;318;261;57
+02;Friedrichshain-Kreuzberg;114;Urnenwahlbezirk;921;834;87;0;193;0;0;193;133;60
+02;Friedrichshain-Kreuzberg;115;Urnenwahlbezirk;1944;1791;153;0;457;0;3;454;300;154
+02;Friedrichshain-Kreuzberg;116;Urnenwahlbezirk;1002;924;78;0;180;0;0;180;140;40
+02;Friedrichshain-Kreuzberg;117;Urnenwahlbezirk;3007;2755;252;0;769;0;1;768;533;235
+02;Friedrichshain-Kreuzberg;118;Urnenwahlbezirk;916;870;46;0;241;0;1;240;158;82
+02;Friedrichshain-Kreuzberg;119;Urnenwahlbezirk;1120;999;121;0;385;0;1;384;192;192
+02;Friedrichshain-Kreuzberg;120;Urnenwahlbezirk;3198;2890;308;0;1054;5;3;1051;402;649
+02;Friedrichshain-Kreuzberg;121;Urnenwahlbezirk;1129;1007;122;0;431;0;2;429;148;281
+02;Friedrichshain-Kreuzberg;122;Urnenwahlbezirk;1057;906;151;0;326;1;0;326;142;184
+02;Friedrichshain-Kreuzberg;123;Urnenwahlbezirk;1880;1691;189;0;650;1;3;647;310;337
+02;Friedrichshain-Kreuzberg;124;Urnenwahlbezirk;2345;2112;233;0;733;2;5;728;292;436
+02;Friedrichshain-Kreuzberg;125;Urnenwahlbezirk;3211;2951;260;0;749;2;2;747;292;455
+02;Friedrichshain-Kreuzberg;126;Urnenwahlbezirk;1102;1002;100;0;278;0;1;277;93;184
+02;Friedrichshain-Kreuzberg;127;Urnenwahlbezirk;1374;1231;143;0;406;2;0;406;117;289
+02;Friedrichshain-Kreuzberg;128;Urnenwahlbezirk;775;738;37;0;154;0;0;154;51;103
+02;Friedrichshain-Kreuzberg;129;Urnenwahlbezirk;1029;924;105;0;286;2;0;286;112;174
+02;Friedrichshain-Kreuzberg;130;Urnenwahlbezirk;1990;1852;138;0;417;0;1;416;230;186
+02;Friedrichshain-Kreuzberg;131;Urnenwahlbezirk;1687;1559;128;0;421;0;0;421;343;78
+02;Friedrichshain-Kreuzberg;132;Urnenwahlbezirk;1027;952;75;0;200;0;0;200;96;104
+02;Friedrichshain-Kreuzberg;133;Urnenwahlbezirk;1063;1002;61;0;279;0;1;278;234;44
+02;Friedrichshain-Kreuzberg;134;Urnenwahlbezirk;2251;2123;128;0;454;1;2;452;141;311
+02;Friedrichshain-Kreuzberg;135;Urnenwahlbezirk;1065;1009;56;0;222;1;1;221;75;146
+02;Friedrichshain-Kreuzberg;136;Urnenwahlbezirk;1212;1137;75;0;302;0;0;302;136;166
+02;Friedrichshain-Kreuzberg;137;Urnenwahlbezirk;1304;1192;112;0;315;0;2;313;101;212
+02;Friedrichshain-Kreuzberg;138;Urnenwahlbezirk;3152;2931;221;0;748;2;3;745;246;499
+02;Friedrichshain-Kreuzberg;139;Urnenwahlbezirk;1148;1042;106;0;317;1;0;317;102;215
+02;Friedrichshain-Kreuzberg;140;Urnenwahlbezirk;1801;1693;108;0;444;0;0;444;193;251
+02;Friedrichshain-Kreuzberg;141;Urnenwahlbezirk;2505;2314;191;0;682;1;4;678;217;461
+02;Friedrichshain-Kreuzberg;142;Urnenwahlbezirk;2256;2084;172;0;534;0;4;530;255;275
+02;Friedrichshain-Kreuzberg;143;Urnenwahlbezirk;1397;1305;92;0;332;2;2;330;107;223
+02;Friedrichshain-Kreuzberg;144;Urnenwahlbezirk;2296;2150;146;0;538;4;0;538;136;402
+02;Friedrichshain-Kreuzberg;145;Urnenwahlbezirk;1025;976;49;0;227;3;2;225;84;141
+02;Friedrichshain-Kreuzberg;146;Urnenwahlbezirk;2191;2067;124;0;527;0;1;526;173;353
+02;Friedrichshain-Kreuzberg;147;Urnenwahlbezirk;626;592;34;0;205;3;0;205;75;130
+02;Friedrichshain-Kreuzberg;148;Urnenwahlbezirk;987;901;86;0;280;1;0;280;110;170
+02;Friedrichshain-Kreuzberg;149;Urnenwahlbezirk;2110;1970;140;0;409;2;0;409;117;292
+02;Friedrichshain-Kreuzberg;150;Urnenwahlbezirk;1218;1167;51;0;206;0;1;205;74;131
+02;Friedrichshain-Kreuzberg;151;Urnenwahlbezirk;1248;1182;66;0;227;0;1;226;89;137
+02;Friedrichshain-Kreuzberg;152;Urnenwahlbezirk;898;837;61;0;181;0;0;181;58;123
+02;Friedrichshain-Kreuzberg;153;Urnenwahlbezirk;2200;2062;138;0;477;2;0;477;140;337
+02;Friedrichshain-Kreuzberg;154;Urnenwahlbezirk;1358;1237;121;0;264;0;3;261;89;172
+02;Friedrichshain-Kreuzberg;155;Urnenwahlbezirk;1417;1333;84;0;257;0;1;256;94;162
+02;Friedrichshain-Kreuzberg;156;Urnenwahlbezirk;2505;2220;285;0;505;0;2;503;160;343
+02;Friedrichshain-Kreuzberg;157;Urnenwahlbezirk;1104;1002;102;0;228;1;0;228;73;155
+02;Friedrichshain-Kreuzberg;158;Urnenwahlbezirk;1231;1150;81;0;308;0;0;308;101;207
+02;Friedrichshain-Kreuzberg;159;Urnenwahlbezirk;1947;1782;165;0;525;0;0;525;153;372
+02;Friedrichshain-Kreuzberg;160;Urnenwahlbezirk;1354;1239;115;0;345;4;0;345;92;253
+02;Friedrichshain-Kreuzberg;161;Urnenwahlbezirk;1298;1205;93;0;295;1;1;294;73;221
+02;Friedrichshain-Kreuzberg;162;Urnenwahlbezirk;3878;3640;238;0;723;1;2;721;180;541
+02;Friedrichshain-Kreuzberg;163;Urnenwahlbezirk;1120;1059;61;0;234;1;0;234;65;169
+02;Friedrichshain-Kreuzberg;164;Urnenwahlbezirk;5451;5069;382;0;1228;6;3;1225;297;928
+02;Friedrichshain-Kreuzberg;165;Urnenwahlbezirk;2400;2238;162;0;468;0;0;468;143;325
+02;Friedrichshain-Kreuzberg;166;Urnenwahlbezirk;4049;3842;207;0;898;3;6;892;209;683
+02;Friedrichshain-Kreuzberg;167;Urnenwahlbezirk;2332;2182;150;0;500;1;0;500;137;363
+02;Friedrichshain-Kreuzberg;168;Urnenwahlbezirk;3714;3497;217;0;711;0;4;707;185;522
+02;Friedrichshain-Kreuzberg;169;Urnenwahlbezirk;1401;1332;69;0;300;0;0;300;78;222
+02;Friedrichshain-Kreuzberg;170;Urnenwahlbezirk;2548;2383;165;0;493;22;2;491;163;328
+02;Friedrichshain-Kreuzberg;171;Urnenwahlbezirk;1393;1298;95;0;265;0;0;265;76;189
+02;Friedrichshain-Kreuzberg;172;Urnenwahlbezirk;4042;3783;259;0;723;2;1;722;196;526
+02;Friedrichshain-Kreuzberg;173;Urnenwahlbezirk;3844;3535;309;0;739;1;5;734;188;546
+02;Friedrichshain-Kreuzberg;174;Urnenwahlbezirk;1425;1337;88;0;259;0;1;258;84;174
+02;Friedrichshain-Kreuzberg;175;Urnenwahlbezirk;2477;2329;148;0;511;0;0;511;140;371
+02;Friedrichshain-Kreuzberg;176;Urnenwahlbezirk;3519;3318;201;0;632;0;1;631;195;436
+02;Friedrichshain-Kreuzberg;177;Urnenwahlbezirk;2784;2632;152;0;502;0;0;502;154;348
+02;Friedrichshain-Kreuzberg;178;Urnenwahlbezirk;1200;1106;94;0;284;0;1;283;99;184
+02;Friedrichshain-Kreuzberg;179;Urnenwahlbezirk;1280;1205;75;0;309;2;2;307;96;211
+02;Friedrichshain-Kreuzberg;180;Urnenwahlbezirk;4117;3785;332;0;791;2;2;789;230;559
+02;Friedrichshain-Kreuzberg;181;Urnenwahlbezirk;915;841;74;0;242;0;2;240;63;177
+02;Friedrichshain-Kreuzberg;182;Urnenwahlbezirk;1294;1187;107;0;287;0;3;284;96;188
+02;Friedrichshain-Kreuzberg;183;Urnenwahlbezirk;2455;2273;182;0;500;0;1;499;144;355
+02;Friedrichshain-Kreuzberg;184;Urnenwahlbezirk;1248;1147;101;0;320;0;1;319;90;229
+02;Friedrichshain-Kreuzberg;185;Urnenwahlbezirk;2427;2170;257;0;555;0;1;554;163;391
+02;Friedrichshain-Kreuzberg;186;Urnenwahlbezirk;2061;1891;170;0;446;1;3;443;99;344
+02;Friedrichshain-Kreuzberg;187;Urnenwahlbezirk;2381;2154;227;0;406;0;1;405;115;290

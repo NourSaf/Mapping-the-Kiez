@@ -27,6 +27,17 @@ var locations = [
         label: "Historical",
         imageUrl: "../Materials /images/Passionskirche.jpeg" // Replace with actual image path
     }
+   
+];
+
+var locations1 = [
+   
+    {
+        name: "Take it easy",
+        coords: [52.48994093452951, 13.386905631523216],
+        label: "Historical",
+        imageUrl: "../Materials /images/Passionskirche.jpeg" // Replace with actual image path
+    }
 ];
 
 // Create circles and add click event
@@ -40,6 +51,22 @@ locations.forEach(function(location) {
 
     circle.on('click', function() {
         openLightbox(location);
+    });
+});
+
+locations1.forEach(function(location1) {
+    var circle = L.circle(location1.coords, {
+        color: 'blue',
+        fillColor: '#3388ff',
+        fillOpacity: 0.5,
+        radius: 15
+    }).addTo(map);
+
+    circle.on('click', function() {
+        openLightbox(location);
+    });
+    circle.on('click', function() {
+        openLightbox(location1);
     });
 });
 

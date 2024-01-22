@@ -19,9 +19,12 @@
     <nav class="navbar">
         <div class="logo-container">
             <a href="./index.html">
-            <img src="./Materials /Logo/4x/Artboard 1@4x.png" alt="Logo">
+                <img src="./Materials /Logo/4x/Artboard 1@4x.png" alt="Logo">
                 <!-- We need a logo here, will create it later. For now we can use a background with a color-->
-        </div></a>
+            </a>    
+        </div>
+        
+       
 
 
             <!-- Burger Menu Icon -->
@@ -33,37 +36,31 @@
                 <a href="../index.html"><div class="menu-item">HOME</div></a>
                 <a href="../HTML/timeline.html"> <div class="menu-item">TIMELINE</div></a>
                 <a href="./HTML/satellite-images.html"> <div class="menu-item">SATELLITE IMAGES</div></a>
+                <a href="./HTML/map-culture.html"> <div class="menu-item">CULTURE</div></a>
+
                 <div class="close-btn" onclick="toggleOverlay()"></div>
-                <!-- Add your menu content here -->
             </div>
         </div>
 
 
     </nav>
-
+    
+    <div class="header">
+        <h1 class="homeheader">
+            The experimental visualization of Bergmannkiez is a comprehensive project, tackling the area's history,  recent events, population, economy, political . It aims to provide a full picture of Bergmannkiez from every possible aspect.
+        </h1>
+    </div>
+   
 
     <!-- Main Section with Leaflet Map -->
-    <button id="resetMapView">Reset View</button>
-
-    <section class="map-section">
-        <div id="map"></div>
-    </section>
-
-    <!-- Lightbox -->
-    <div class="lightbox" style="display: none;">
-    
-            <div class="lightboxClose">   </div>
-
-            <div class="lightbox-content">     </div>
-     
-    </div>
+   
 
     <!-- Footer -->
-    <footer>
+    <!-- <footer>
         <a href="home.html">HOME</a>
         <a href="documentation.html">DOCUMENTATION</a>
         <a href="timeline.html">TIMELINE</a>
-    </footer>
+    </footer> -->
 
     <!-- External JavaScript File -->
     <script src="./JS /map.js"></script>

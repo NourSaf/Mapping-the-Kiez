@@ -1,0 +1,40 @@
+;Bundestagswahl 2021;;;
+;;;;
+;Bundestagswahl 2021;Wahlberechtigte;Wählende;Wahlbeteiligung
+;;Anzahl;;in %
+;;;;
+;;Berlin;;
+01;Mitte; 207 483; 152 506;73,5
+02; Friedrichshain-Kreuzberg; 170 553; 134 093;78,6
+03; Pankow; 285 108; 223 012;78,2
+04; Charlottenburg-Wilmersdorf; 217 663; 170 047;78,1
+05; Spandau; 159 388; 112 230;70,4
+06;Steglitz-Zehlendorf; 217 814; 177 241;81,4
+07;Tempelhof-Schöneberg; 231 500; 178 035;76,9
+08;Neukölln; 197 037; 139 712;70,9
+09;Treptow-Köpenick; 207 127; 158 748;76,6
+10; Marzahn-Hellersdorf; 197 988; 137 133;69,3
+11;Lichtenberg; 200 673; 145 569;72,5
+12;Reinickendorf; 176 585; 128 577;72,8
+;Berlin;2 468 919;1 856 903;75,2
+;;;;
+;;Brandenburg;;
+12051000;Brandenburg an der Havel; 58 011; 38 725;66,8
+12052000;Cottbus; 76 664; 56 178;73,3
+12053000;Frankfurt (Oder); 43 524; 30 483;70,0
+12054000;Potsdam; 136 171; 110 636;81,2
+12060000;Barnim; 153 682; 116 762;76,0
+12061000;Dahme-Spreewald; 139 473; 108 645;77,9
+12062000;Elbe-Elster; 84 748; 63 633;75,1
+12063000;Havelland; 132 645; 101 350;76,4
+12064000;Märkisch-Oderland; 160 954; 121 773;75,7
+12065000;Oberhavel; 174 518; 134 465;77,0
+12066000;Oberspreewald-Lausitz; 90 562; 66 230;73,1
+12067000; Oder-Spree; 147 863; 111 931;75,7
+12068000;Ostprignitz-Ruppin; 82 224; 57 917;70,4
+12069000;Potsdam-Mittelmark; 174 776; 141 079;80,7
+12070000;Prignitz; 63 058; 45 045;71,4
+12071000;Spree-Neiße; 94 603; 72 145;76,3
+12072000;Teltow-Fläming; 136 777; 102 972;75,3
+12073000;Uckermark; 98 591; 69 495;70,5
+;Brandenburg;2 048 844;1 549 464;75,6

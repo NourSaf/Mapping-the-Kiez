@@ -1,0 +1,40 @@
+;Europawahl 2019;;;
+;;;;
+;Bezirk;Wahlberechtigte;Wählende;Wahlbeteiligung
+;;Anzahl;;in %
+;;;;
+;;Berlin;;
+01;Mitte; 210 118; 127 745;60,8
+02;Friedrichshain-Kreuzberg; 174 282; 117 260;67,3
+03;Pankow; 288 978; 189 663;65,6
+04;Charlottenburg-Wilmersdorf; 221 319; 146 465;66,2
+05;Spandau; 162 066; 86 629;53,5
+06;Steglitz-Zehlendorf; 221 217; 152 659;69,0
+07;Tempelhof-Schöneberg; 236 121; 148 876;63,1
+08;Neukölln; 202 641; 112 930;55,7
+09;Treptow-Köpenick; 207 347; 123 561;59,6
+10;Marzahn-Hellersdorf; 199 728; 98 622;49,4
+11;Lichtenberg; 203 786; 111 478;54,7
+12;Reinickendorf; 180 832; 104 790;57,9
+;Berlin;2 508 435;1 520 678;60,6
+;;;;
+;Verwaltungsbezirk;Brandenburg;;
+12051000;Brandenburg an der Havel; 58 801; 28 624;48,7
+12052000;Cottbus; 78 559; 45 012;57,3
+12053000;Frankfurt (Oder); 44 982; 22 986;51,1
+12054000;Potsdam; 135 094; 86 270;63,9
+12060000;Barnim; 151 574; 88 868;58,6
+12061000;Dahme-Spreewald; 136 836; 86 332;63,1
+12062000;Elbe-Elster; 86 352; 51 949;60,2
+12063000;Havelland; 131 243; 78 129;59,5
+12064000;Märkisch-Oderland; 159 898; 95 162;59,5
+12065000;Oberhavel; 172 533; 105 536;61,2
+12066000;Oberspreewald-Lausitz; 92 588; 52 558;56,8
+12067000;Oder-Spree; 148 367; 87 721;59,1
+12068000;Ostprignitz-Ruppin; 82 700; 44 207;53,5
+12069000;Potsdam-Mittelmark; 172 790; 113 815;65,9
+12070000;Prignitz; 64 169; 35 814;55,8
+12071000;Spree-Neiße; 96 700; 59 372;61,4
+12072000;Teltow-Fläming; 135 562; 81 353;60,0
+12073000;Uckermark; 99 858; 54 388;54,5
+;Brandenburg;2 048 606;1 218 096;59,5

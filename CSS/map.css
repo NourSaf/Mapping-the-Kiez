@@ -1,9 +1,12 @@
 .map-section {
     height: 90vh;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #map {
     height: 100%;
+   
 }
 
 .lightbox {

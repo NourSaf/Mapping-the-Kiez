@@ -1,0 +1,17 @@
+
+.header{
+    display: flex;
+    
+    height: 100ch;
+    align-items: center;
+    justify-content: center;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.homeheader{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: justify;
+
+}

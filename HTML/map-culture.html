@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+    <script language="javascript" src="libraries/p5.dom.js"></script>
+    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPING THE KIEZ</title>
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="../CSS/index.css">
+    <!-- Leaflet CSS -->
+    <!-- <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>    -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>   
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="../index.html">
+            <img src="../Materials /Logo/4x/Artboard 1@4x.png" alt="Logo">
+                <!-- We need a logo here, will create it later. For now we can use a background with a color-->
+        </div></a>
+
+
+            <!-- Burger Menu Icon -->
+        <div class="burger-menu" onclick="toggleOverlay()">☰</div>
+
+        <!-- Overlay -->
+        <div id="menu-overlay" class="overlay" style="display: none;">
+            <div class="overlay-content">
+                <a href="../index.html"><div class="menu-item">HOME</div></a>
+                <a href="./timeline.html"> <div class="menu-item">TIMELINE</div></a>
+                <a href="./satellite-images.html"> <div class="menu-item">SATELLITE IMAGES</div></a>
+                <a href="./map-culture.html"> <div class="menu-item">CULTURE</div></a>
+                <div class="close-btn" onclick="toggleOverlay()"></div>
+                <!-- Add your menu content here -->
+            </div>
+        </div>
+
+
+    </nav>
+
+    <button id="resetMapView">Reset View</button>
+    <div>All the stores, spätis and bars in Bergmannkiez presented on the map be here</div>
+
+    <section class="map-section">
+        <div id="map"></div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" style="display: none;">
+    
+            <div class="lightboxClose">  </div>
+            <div class="lightbox-content">    </div>
+     
+    </div>
+
+
+    <script src="../JS /map.js"></script>
+    <script src="../JS /burger-menu.js"></script>    </body>
+</html>

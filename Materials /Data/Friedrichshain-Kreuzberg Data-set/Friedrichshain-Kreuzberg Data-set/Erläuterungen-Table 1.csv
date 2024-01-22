@@ -1,0 +1,35 @@
+1. Allgemeines;;;;;;;
+Inhalt der Daten;;Endgültiges Ergebnis des Volksentscheides über die Änderung des Berliner Klimaschutz- und Energiewendegesetzes am 26. März 2023;;;;;
+Land;;Berlin;;;;;
+Regionale Ebene;Abstimmungsbezirke;x;;;;;
+Zahl der Datensätze;3 764;3 764;;;;;
+Jahr;2023;x;;;;;
+;;;;;;;
+2. Beschreibung der Felder;;;;;;;
+Feldname;Feldinhalt;;;;;;
+Stimmart;Art der Stimme ;x;;;;;
+Adresse;Schlüssel-ID;x;;;;;
+Bezirksnummer;Nr. des Berliner Bezirkes;x;;;;;
+Bezirksname;Name des Berliner Bezirkes;x;;;;;
+Abstimmungsbezirk;Nr. des Abstimmungsbezirkes;x;;;;;
+Abstimmungsbezirksart;"Art des Abstimmungsbezirkes
+(B-Briefabstimmungsbezirk, 
+W-Urnenabstimmungsbezirk)";x;;;;;
+Briefabstimmungsbezirk;Nr. des Briefabstimmungsbezirks;x;;;;;
+Abgeordnetenhauswahlkreis;Nr. des Abgeordnetenhauswahlkreises;x;;;;;
+Bundestagswahlkreis;Nr. des Bundestagswahlkreises;x;;;;;
+OstWest;"Stadthälfte
+(Berlin-Ost, Berlin-West)";x;;;;;
+Abstimmungsberechtigte insgesamt;Zahl der Abstimmungsberechtigten insgesamt;x;;;;;
+Abstimmungsberechtigte A1;Zahl der Abstimmungsberechtigten im Abstimmungsverzeichnis ohne Abstimmungsschein ;x;;;;;
+Abstimmungsberechtigte A2;Zahl der Abstimmungsberechtigten im Abstimmungsverzeichnis mit Abstimmungsschein ;x;;;;;
+Abstimmungsberechtigte A3;"Zahl der Abstimmungsberechtigten, die am Abstimmungstag einen Abstimmungsschein erhielten, ohne dass 
+sie im abgeschlossenen Abstimmungsverzeichnis eingetragen waren  (§ 24 Abs 1b LWO)";x;;;;;
+Teilnehmende;Zahl der Teilnehmenden insgesamt;x;;;;;
+Teilnehmende B1;Zahl der Teilnehmenden mit Abstimmungsschein;x;;;;;
+Ungültige Stimmen;Zahl der ungültigen Stimmen ;x;;;;;
+Gültige Stimmen;Zahl der gültigen Stimmen ;x;;;;;
+;Zahl der gültigen Stimmen für:;;;;;;
+Stimmabgabe Volksentscheid Berlin: Ja;Stimmabgabe Volksentscheid Berlin: Ja;x;;;;;
+Stimmabgabe Volksentscheid Berlin: Nein;Stimmabgabe Volksentscheid Berlin: Nein;x;;;;;
+aufn;im Fall von §10 LWO enthält dieses Feld die Adresse des aufnehmenden Abstimmungsbezirks;x;;;;;
