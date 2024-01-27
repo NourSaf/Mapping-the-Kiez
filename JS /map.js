@@ -12,7 +12,6 @@
         zoomOffset: -1,
     }).addTo(map);
 
-
     // Define locations 
     var locations = [
         {
@@ -29,6 +28,7 @@
         }
     
     ];
+
     var retailtrade = [
         {
             name: "Blumen & Garten",
@@ -83,6 +83,7 @@
             label: "Cafe",
             imageUrl: ""
         },
+
         {
             name: "Hako Ramen Kreuzberg",
             coords: [52.489458819005996, 13.390509258835825],
@@ -97,7 +98,6 @@
             imageUrl: ""
         },
     
-
         // {
         //     name: "",
         //     coords: [],
@@ -374,3 +374,8 @@
 
     // Attach event listener to the button
     document.getElementById('resetMapView').addEventListener('click', resetMapView);
+
+
+
+
+    

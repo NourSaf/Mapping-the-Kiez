@@ -38,6 +38,7 @@
 
 
 .lightboxClose{
+    border-radius: 30px;
     padding-top: 20px;
     padding-right: 70px;
     display: flex;
@@ -45,9 +46,10 @@
 }
 
 .LightboxBtn{
- 
-        background-color: #ffffff; /* Light grey background */
-        color: #000000; /* Dark text color */
+
+        border-radius: 100px;
+        background-color: #000000; /* Light grey background */
+        color: #ffffff; /* Dark text color */
         border: 1px solid #ccc; /* Light grey border */
         padding: 10px 20px; /* Some padding around the text */
         text-align: center; /* Center the text inside the button */
