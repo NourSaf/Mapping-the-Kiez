@@ -19,48 +19,64 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo-container">
-            <a href="../index.html">
-            <img src="../Materials /Logo/4x/Artboard 1@4x.png" alt="Logo">
-                <!-- We need a logo here, will create it later. For now we can use a background with a color-->
-        </div></a>
-
-
-            <!-- Burger Menu Icon -->
-        <div class="burger-menu" onclick="toggleOverlay()">☰</div>
-
-        <!-- Overlay -->
-        <div id="menu-overlay" class="overlay" style="display: none;">
-            <div class="overlay-content">
-                <a href="../index.html"><div class="menu-item">HOME</div></a>
-                <a href="./timeline.html"> <div class="menu-item">TIMELINE</div></a>
-                <a href="./satellite-images.html"> <div class="menu-item">SATELLITE IMAGES</div></a>
-                <a href="./map-culture.html"> <div class="menu-item">CULTURE</div></a>
-                <a href="/HTML/bergmannPhotos/bergmanfotos.html"> <div class="menu-item">STREET VIEW</div></a>
-                <div class="close-btn" onclick="toggleOverlay()"></div>
-                <!-- Add your menu content here -->
+        <div class="navcontainer">
+            <div class="logo-container">
+                <a href="/index.html">
+                    <span class="logotext">streetscape</span>
+                </a>    
             </div>
+                <a href="/HTML/timeline.html"> <div class="menu-item">TIMELINE</div></a>
+                <a href="/HTML/satellite-images.html"> <div class="menu-item">CHRONOLOGICAL CARTOGRAPHY</div></a>
+                <a href="/HTML/map-culture.html"> <div class="menu-item">TRADINGS</div></a>
+                <a href="/HTML/bergmannPhotos/bergmanfotos.html"> <div class="menu-item">STREET VIEW</div></a>
+                <a href="/HTML/demografics.html"> <div class="menu-item">DEMOGRAPHICS</div></a>
         </div>
-
-
     </nav>
 
-    <button id="resetMapView">Reset View</button>
-    <div>All the stores, spätis and bars in Bergmannkiez presented on the map be here</div>
+    <section class="maincontainer">
+        <div class="text-container">
+            <h1 class="h1pageheader history">
+                <span class="text">TRADINGS</span>
+                
+            </h1>
+    
+        <div class="textgrid evaluation">
+            <div class="gridItem">
+                About
+            </div>
+            
+            <div class="gridItem">
+                Chronological Cartography of Berlin's Bergmannkiez
+            </div>
+            
+            <div class="gridItem">
+                <div class="paragraph">
+                    This collection serves as a comprehensive visual archive, documenting the district's architectural, environmental, and urban transitions over more than two centuries. Each map is presented in chronological order, providing a clear, visual progression of the changes and developments within Bergmannkiez. The archive is designed to offer insights into the historical layers that have contributed to the area's current urban landscape, making it a valuable resource for researchers, students, and enthusiasts of urban geography and historical cartography. Through this cartographic retrospective, viewers can trace the evolution of Bergmannkiez, gaining a deeper understanding of the factors that have influenced its development through time.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
 
     <section class="map-section">
+        <button id="resetMapView" class="resetMapView" >Reset View</button>
         <div id="map"></div>
+        <div class="category-switches">
+            <button onclick="toggleCategoryVisibility('retailTrade')" style="background-color: #FFCD29;">Retail Trade</button>
+            <button onclick="toggleCategoryVisibility('food')" style="background-color: #F24822;">Food</button>
+            <button onclick="toggleCategoryVisibility('healthcare')" style="background-color: #0D99FF;">Health care</button>
+            <button onclick="toggleCategoryVisibility('supermarket')" style="background-color: #14AE5C;">Supermarkets</button>
+            <button onclick="toggleCategoryVisibility('spaeti')" style="background-color: #B1FFA4;">Spätis</button>
+            <button onclick="toggleCategoryVisibility('social')" style="background-color: #ff00b7;">Social Places</button>
+            <button onclick="toggleCategoryVisibility('service')" style="background-color: #a22d81;">Services</button>
+            <!-- Repeat for other categories -->
+        </div>
+        
     </section>
 
-    <!-- Lightbox -->
-    <div class="lightbox" style="display: none;">
-    
-            <div class="lightboxClose">  </div>
-            <div class="lightbox-content">    </div>
-     
-    </div>
 
 
     <script src="../JS /map.js"></script>
-    <script src="../JS /burger-menu.js"></script>    </body>
+</body>
 </html>

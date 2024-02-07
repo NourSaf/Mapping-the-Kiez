@@ -1,6 +1,12 @@
 @import url(./navibar.css);
-@import url(./home.css);
 @import url(./map.css);
 @import url(./timeline.css);
 @import url(./satpage.css);
 @import url(./imgspage.css);
+@import url(./home.css);
+
+::selection{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+}

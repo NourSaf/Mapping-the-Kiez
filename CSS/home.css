@@ -1,17 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+/* font-family: 'Space Mono', monospace; */
+::selection{
+    background: red;
+}
+
+body{
+    padding: 0px;
+    margin:0px ;
+}
 
 .header{
     display: flex;
-    
-    height: 100ch;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     padding-left:100px;
     padding-right:100px;
+    position: relative;
+    backdrop-filter: blur(10px);
+    backdrop-filter: invert(100%);
 }
 
 .homeheader{
-    font-size: 20px;
-    font-family:'Courier New', Courier, monospace;
-    text-align: justify;
+    font-size: 15px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    width: 40%;
+    padding: 25px;
+    background-color: yellow;
 
+}
+
+.background01{
+    height: 100vh;
+    position: absolute;
+}
+
+.img01{
+    width: 100vw;
+    height: 100vh;  
 }

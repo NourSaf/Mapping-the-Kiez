@@ -15,64 +15,229 @@
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 </head>
 
-    <body>
 
+<body>
         <nav class="navbar">
-            <div class="logo-container">
-                <a href="../index.html">
-                <img src="../Materials /Logo/4x/Artboard 1@4x.png" alt="Logo">
-                    <!-- We need a logo here, will create it later. For now we can use a background with a color-->
-            </div></a>
-    
-    
-                <!-- Burger Menu Icon -->
-            <div class="burger-menu" onclick="toggleOverlay()">☰</div>
-    
-            <!-- Overlay -->
-            <div id="menu-overlay" class="overlay" style="display: none;">
-                <div class="overlay-content">
-                    <a href="../index.html"><div class="menu-item">HOME</div></a>
-                    <a href="./timeline.html"> <div class="menu-item">TIMELINE</div></a>
-                    <a href="./satellite-images.html"> <div class="menu-item">SATELLITE IMAGES</div></a>
-                    <a href="./map-culture.html"> <div class="menu-item">CULTURE</div></a>
-                    <a href="/HTML/bergmannPhotos/bergmanfotos.html"> <div class="menu-item">STREET VIEW</div></a>
-                    <div class="close-btn" onclick="toggleOverlay()"></div>
-                    <!-- Add your menu content here -->
+            <div class="navcontainer">
+                <div class="logo-container">
+                    <a href="/index.html">
+                        <span class="logotext">streetscape</span>
+                    </a>    
                 </div>
+                    <a href="/HTML/timeline.html"> <div class="menu-item">TIMELINE</div></a>
+                    <a href="/HTML/satellite-images.html"> <div class="menu-item">CHRONOLOGICAL CARTOGRAPHY</div></a>
+                    <a href="/HTML/map-culture.html"> <div class="menu-item">TRADINGS</div></a>
+                    <a href="/HTML/bergmannPhotos/bergmanfotos.html"> <div class="menu-item">STREET VIEW</div></a>
+                    <a href="/HTML/demografics.html"> <div class="menu-item">DEMOGRAPHICS</div></a>
             </div>
-    
-    
         </nav>
 
-
-    <!-- Gif Section -->
-    <section class="herosection">
-        <div class="header">
-            <H1>Satellite Images</H1>
-            <p>What are satellite images and what is the intention showing them here?</p>
+        <section class="maincontainer">
+            <div class="text-container">
+                <h1 class="h1pageheader history">
+                    <span class="text"> CHRONOLOGICAL CARTOGRAPHY
+                    </span>
+                </h1>
+        
+            <div class="textgrid evaluation">
+                <div class="gridItem">
+                    About
+                </div>
+                
+                <div class="gridItem">
+                    Chronological Cartography of Berlin's Bergmannkiez
+                </div>
+                
+                <div class="gridItem">
+                    <div class="paragraph">
+                        This collection serves as a comprehensive visual archive, documenting the district's architectural, environmental, and urban transitions over more than two centuries. Each map is presented in chronological order, providing a clear, visual progression of the changes and developments within Bergmannkiez. The archive is designed to offer insights into the historical layers that have contributed to the area's current urban landscape, making it a valuable resource for researchers, students, and enthusiasts of urban geography and historical cartography. Through this cartographic retrospective, viewers can trace the evolution of Bergmannkiez, gaining a deeper understanding of the factors that have influenced its development through time.
+                    </div>
+                </div>
+            </div>
         </div>
+        
     </section>
 
-    <!-- Content Section -->
     <section class="content-section">
         <div class="grid-container">
-            <!-- Row 1 -->
-            <div class="grid-item">
-                <img src="../Materials /gifs/Fals color composite.gif" alt="Gif 1"> <!-- Replace with actual gif path -->
-                <div class="text-content">Fals Color Composite</div>
+            <div id="lightbox" class="lightbox-hidden">
+                <span class="close">&times;</span>
+                <img class="lightbox-content" id="lightbox-img" src="">
+                <div id="lightbox-text" class="lightbox-text"></div> <!-- Placeholder for image text -->
+                <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+                <a class="next" onclick="changeImage(1)">&#10095;</a>
             </div>
-            <!-- Row 2 -->
+
             <div class="grid-item">
-                <img src="../Materials /gifs/Moisture_2016-2024.gif" alt="Gif 2"> <!-- Replace with actual gif path -->
-                <div class="text-content">Moisture Index</div>
+                <img src="/Materials /images/KiezMaps/01_2023_SatImg_colored.png" alt="Satellite Image - Ture Color - 2023">
+                <div class="text-content">Satellite Image - True Color - 2023 </div>
             </div>
-            <!-- Row 3 -->
+
             <div class="grid-item">
-                <img src="../Materials /gifs/Normalized Difference Vegetation Index (NDVI).gif" alt="Gif 3"> <!-- Replace with actual gif path -->
-                <div class="text-content">Normalized Difference Vegetation Index (NDVI)</div>
+                <img src="/Materials /images/KiezMaps/02_2022_SatImg_colored.png" alt="Satellite Image - Ture Color - 2022">
+                <div class="text-content">Satellite Image - True Color - 2022</div>
             </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/03_2021_SatImg_colored.png" alt="Satellite Image - Ture Color - 2021">
+                <div class="text-content">Satellite Image - True Color - 2021</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/04_2020_SatImg_colored.png" alt="Satellite Image - Ture Color - 2020">
+                <div class="text-content">Satellite Image - True Color - 2020</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/05_2020_SatImg_infaRed.png" alt="Satellite Image - Infrared - 2020">
+                <div class="text-content">Satellite Image - Infrared - 2020</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/06_2019_SatImg_colored.png" alt="Satellite Image - True Color - 2019">
+                <div class="text-content">Satellite Image - True Color - 2019</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/07_2018_SatImg_colored.png" alt="Satellite Image - True Color - 2018">
+                <div class="text-content">Satellite Image - True Color - 2018</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/08_2017_SatImg_colored.png" alt="Satellite Image - True Color - 2017">
+                <div class="text-content">Satellite Image - True Color - 2017</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/09_2016_SatImg_colored.png" alt="Satellite Image - True Color - 2016">
+                <div class="text-content">Satellite Image - True Color - 2016</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/10_2015_SatImg_colored.png" alt="Satellite Image - True Color - 2015">
+                <div class="text-content">Satellite Image - True Color - 2015</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/11_2015_SatImg_InfaRed.png" alt="Satellite Image - Infrared - 2015">
+                <div class="text-content">Satellite Image - Infrared - 2015</div>
+            </div>
+            
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/12_2014_SatImg_colored.png" alt="Satellite Image - True Color - 2014">
+                <div class="text-content">Satellite Image - True Color - 2014</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/13_2010_SatImg_colored.png" alt="Satellite Image - True Color - 2010">
+                <div class="text-content">Satellite Image - True Color - 2010</div>
+            </div>
+
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/14_2007_SatImg_colored.png" alt="Satellite Image - True Color - 2007">
+                <div class="text-content">Satellite Image - True Color - 2007</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/15_2007_SatImg_BlackWhite.png" alt="Satellite Image - Black and White - 2006">
+                <div class="text-content">Satellite Image - Black and White - 2006</div>
+            </div>
+            
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/16_2004_SatImg_colored.png" alt="Satellite Image - True Color - 2004">
+                <div class="text-content">Satellite Image - True Color - 2004</div>
+            </div>
+            
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/28_1992:1993_HistoricaMap_BuidlingsAge.png" alt="Historical Map - Buidling's Age - Drawing - 1992/93">
+                <div class="text-content">Historical Map - Buidling's Age - Drawing - 1992/93</div>
+            </div>
+      
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/25_1986_HistoricaMap_drawing.png" alt="Historical Map - Drawing - 1986">
+                <div class="text-content">Historical Map - Drawing - 1986</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/17_1953_SatImg_BlackWhite.png" alt="Satellite Image - Black and White - 1953">
+                <div class="text-content">Satellite Image - Black and White - 1953</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/27_1945_HistoricaMap_DamagedBuidlings.png" alt="Historical Map - Damaged Buidlings - Drawing - 1945">
+                <div class="text-content">Historical Map - Damaged Buidlings - Drawing - 1945</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/24_1940_HistoricaMap_drawing.png" alt="Historical Map - Drawing - 1940">
+                <div class="text-content">Historical Map - Drawing - 1940</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/18_1928_SatImg_BlackWhite.png" alt="Satellite Image - Black and White - 1928">
+                <div class="text-content">Satellite Image - Black and White - 1928</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/23_1910_HistoricaMap_drawing.png" alt="Historical Map - Drawing - 1910">
+                <div class="text-content">Historical Map - Drawing - 1910</div>
+            </div>
+
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/22_1880_HistoricaMap_drawing.png" alt="Historical Map - Drawing - 1880">
+                <div class="text-content">Historical Map - Drawing - 1880</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/26_1862_HistoricaMap_drawing.png" alt="Historical Map - Drawing - 1862">
+                <div class="text-content">Historical Map - Drawing - 1862</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/21_1850_HistoricaMap_drawing.png" alt="Historical Map - Drawing - 1850">
+                <div class="text-content">Historical Map - Drawing - 1850</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/20_1800_HistoricaMap_drawing.png" alt="Satellite Image - True Color - 2018">
+                <div class="text-content">Historical Map - Drawing - 1800</div>
+            </div>
+
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/19_1759_HistoricalMap_drawing.png" alt="Historical Map - Drawing - 1759">
+                <div class="text-content">Historical Map - Drawing - 1759</div>
+            </div>
+
+            <div class="grid-item">
+                <img src="/Materials /images/KiezMaps/29_Strauplan.png" alt="Historical Map - Strauplan">
+                <div class="text-content">Historical Map - Strauplan</div>
+            </div>
+
+            
+            <div class="grid-item">
+                <img src="../Materials /gifs/Normalized Difference Vegetation Index (NDVI).gif" alt="Gif 3">
+                <div class="text-content">Normalized Difference Vegetation Index (NDVI) – 2015 - 2023</div>
+            </div>
+            
+            <div class="grid-item">
+                <img src="../Materials /gifs/Fals color composite.gif" alt="Fals Color Composite – 2016 - 2023">
+                <div class="text-content">Fals Color Composite – 2016 - 2023</div>
+            </div>
+            
+            <div class="grid-item">
+                <img src="../Materials /gifs/Moisture_2016-2024.gif" alt="Moisture Index – 2016 - 2023">
+                <div class="text-content">Moisture Index – 2016 - 2023</div>
+            </div>
+            
+           
         </div>
     </section>
-<script src="../JS /burger-menu.js"></script>
+    
+<script src="../JS /gallery.js"></script>
+
 </body>
 </html>

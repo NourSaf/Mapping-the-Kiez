@@ -18,39 +18,85 @@
 
 <body>
     <nav class="navbar">
-        <div class="logo-container">
-            <a href="../index.html">
-            <img src="../Materials /Logo/4x/Artboard 1@4x.png" alt="Logo">
-                <!-- We need a logo here, will create it later. For now we can use a background with a color-->
-        </div></a>
-
-
-            <!-- Burger Menu Icon -->
-        <div class="burger-menu" onclick="toggleOverlay()">☰</div>
-
-        <!-- Overlay -->
-        <div id="menu-overlay" class="overlay" style="display: none;">
-            <div class="overlay-content">
-                <a href="../index.html"><div class="menu-item">HOME</div></a>
-                <a href="./timeline.html"> <div class="menu-item">TIMELINE</div></a>
-                <a href="./satellite-images.html"> <div class="menu-item">SATELLITE IMAGES</div></a>
-                <a href="./map-culture.html"> <div class="menu-item">CULTURE</div></a>
+        <div class="navcontainer">
+            <div class="logo-container">
+                <a href="/index.html">
+                    <span class="logotext">streetscape</span>
+                </a>    
+            </div>
+                <a href="/HTML/timeline.html"> <div class="menu-item">TIMELINE</div></a>
+                <a href="/HTML/satellite-images.html"> <div class="menu-item">CHRONOLOGICAL CARTOGRAPHY</div></a>
+                <a href="/HTML/map-culture.html"> <div class="menu-item">TRADINGS</div></a>
                 <a href="/HTML/bergmannPhotos/bergmanfotos.html"> <div class="menu-item">STREET VIEW</div></a>
-                <div class="close-btn" onclick="toggleOverlay()"></div>
-                <!-- Add your menu content here -->
+                <a href="/HTML/demografics.html"> <div class="menu-item">DEMOGRAPHICS</div></a>
+        </div>
+    </nav>
+
+    <div class="maincontainer">
+        <div class="text-container">
+            <h1 class="h1pageheader">
+                <span class="text">TIMELINE </span></h1>
+            
+            <div class="textgrid">
+                <div class="gridItem">
+                    About
+                </div>
+                <div class="gridItem">
+                    The Bergmannkiez Chronicles: <br> A Decade of Civic Engagement (2012-2024)
+                </div>
+                <div class="gridItem">
+                    <div class="paragraph">
+                        Explore the dynamic journey of Berlin's Bergmannkiez neighborhood over the past decade, as residents actively participate in shaping their community's future through the Bürgerbeteiligung (civic engagement) process. This comprehensive timeline highlights key events, milestones, and initiatives that have transformed Bergmannkiez into a vibrant and engaged urban community, drawing insights from leiser-bergmannkiez.de, official Berlin state websites, and media articles.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="textgrid">
+                <div class="gridItem">
+                    01
+                </div>
+                <div class="gridItem">
+                    Categories <br>
+                <li> Official information from the city berlin</li>
+                <li>Unofficial information from various media articles. </li>
+                    <li>Letter exchange between the initiative leiser-bergmannkiez.de and the city of berlin.      </li>
+                </div>
+                <div class="gridItem">
+                    <div class="paragraph">
+                        By examining how these categories intersect, we gain insights into the neighborhood's development, revealing the interconnectedness of official decisions, media coverage, and community-driven initiatives. This approach provides a concise yet comprehensive view of Bergmannkiez's journey over the years and the ripple effects of various events.                </div>
+                </div>
             </div>
         </div>
 
-
-    </nav>
-
-    <div class="timelinecontainer">
-        <div id="timeline-embed" class="timeline">
-            <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1fTj4_hRS787eQkw5-bu3N52-XE0koHLv_xelvu_AOFo&font=Default&lang=en&initial_zoom=2' width='100%' height='100%' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'>
-
-            </iframe>
-        </div>  
+        <div class="timelineNew">
+            <div class="timecontimg">
+                <img class="timeline1" src="/Materials /Timeline/Group 76.svg" alt="">
+            </div>
+        </div>
+        <div class="text-container">
+            <div class="textgrid margned">
+                <div class="gridItem">
+                    02
+                </div>
+                <div class="gridItem">
+                    Categories <br>
+                    <li> Official information from the city berlin</li>
+                    <li>Unofficial information from various media articles. </li>
+                    <li>Letter exchange between the initiative leiser-bergmannkiez.de and the city of berlin. </li>
+                </div>
+                <div class="gridItem">
+                    <div class="paragraph">
+                        An interactive timeline offers viewers a seamless and user-friendly way to navigate through a series of events in chronological order. With this dynamic tool, users can effortlessly explore information, with each event neatly following the last, providing a clear and engaging overview of historical developments.                </div>
+                </div>
+            </div>
+        </div>
+        <div class="timelinecontainer">
+            <div id="timeline-embed" class="timeline">
+                <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1m4GDqwZDOWh4qg_k_a_BmD51GSrwOLPidcXcsBMfeJQ&font=Bitter-Raleway&lang=en&debug=true&initial_zoom=0' width='100%' height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+            </div>  
+        </div>
     </div>
+    
     <script src="../JS /burger-menu.js"></script>
 </body>
 
