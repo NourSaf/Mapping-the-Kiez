@@ -48,3 +48,7 @@
     border-color: #007bff; /* Active state border color */
   }
   
+  h3.gridItem{
+    font-weight: 200;
+    font-size: 18px;
+  }
