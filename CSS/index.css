@@ -4,6 +4,7 @@
 @import url(./satpage.css);
 @import url(./imgspage.css);
 @import url(./home.css);
+@import url(/CSS/demographics.css);
 
 ::selection{
     background-color: yellow;
