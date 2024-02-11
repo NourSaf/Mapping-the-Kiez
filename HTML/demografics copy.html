@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script language="javascript" type="text/javascript" src="/libraries/p5.js"></script>
-    <script language="javascript" src="/libraries/p5.dom.js"></script>
+    <script language="javascript" type="text/javascript" src="../libraries/p5.js"></script>
+    <script language="javascript" src="../libraries/p5.dom.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAPING THE KIEZ</title>
     <!-- External CSS File -->
@@ -13,7 +13,11 @@
    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>   
     <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    <!-- <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
     
 </head>
     <body>
@@ -32,17 +36,20 @@
             </div>
         </nav>
 
-        <div class="maincontainer">
+        <div class="maincontainer-demos">
             <div class="text-container">
                 <h1 class="h1pageheader">
-                    <span class="text">STREET VIEW </span></h1>
+                    <span class="text">
+                        DEMOGRAPHICS
+                    </span>
+                </h1>
                 
                 <div class="textgrid">
                     <div class="gridItem">
                         About
                     </div>
                     <div class="gridItem">
-                        A Photographic Exploration
+                       DEMOGRAPHICAL DISTRIBUTION
                     </div>
                     <div class="gridItem">
                         <div class="paragraph">
@@ -51,17 +58,44 @@
                     </div>
                 </div>
         </div>
-        
-        <section class="scrollcontainer">
-            <div id="website" class="grid-container"> 
-        </section>
 
-        <div id="lightbox" class="lightbox" style="display:none;">
-            <span class="close" onclick="closeLightbox()">&times;</span>
-            <img class="lightbox-img" src="">
-            <div class="caption"></div>
+        
+
+        <div id="chartContainer" style="width: 600px; height: 400px;">
+            <iframe title="Kiezbasd" aria-label="Grouped Bars" id="datawrapper-chart-bDXVH" src="https://datawrapper.dwcdn.net/bDXVH/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="853" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+          </div>
+          
+
+        <div id="chartContainer" style="width: 600px; height: 400px;">
+            <canvas id="myChart"></canvas>
+          </div>
+          
+          <div id="chartContainer2" style="width: 600px; height: 400px;">
+            <canvas id="myChart2"></canvas>
+          </div>
+          
+        <div class="chart">
+            <div class="top">
+                asdasd
+                <canvas id="barChart"></canvas>
+            </div>
+
+            <div class="top">
+                Nours asdas
+            <canvas id="pieChart"></canvas></div>
+            <div class="top">
+            <canvas id="pieChartsecond"></canvas></div>
+            <div class="top">
+            <canvas id="pieChartseconds"></canvas></div>
+            <canvas id="maribar"></canvas>
         </div>
+
+           
     
-        <script src="/JS /pictures.js"></script>    
+
+
+
+        <script src="/JS /charts.js"></script>    
     </body>
 </html>

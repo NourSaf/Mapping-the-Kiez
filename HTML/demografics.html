@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAPING THE KIEZ</title>
     <!-- External CSS File -->
-    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="/CSS/index.css">
     <!-- Leaflet CSS -->
     <!-- <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>    -->
    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>   
     <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+    <!-- <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 
     
 </head>
@@ -34,19 +36,134 @@
             </div>
         </nav>
 
-            <div class="header">
-                Political participation in the kize 
-            </div>
-            <div class="chart">
-                <canvas id="barChart"></canvas>
-                <canvas id="pieChart"></canvas>
-                <canvas id="pieChartsecond"></canvas>
-            </div>
+        <div class="maincontainer-demos">
+            <div class="text-container">
+                <h1 class="h1pageheader">
+                    <span class="text">
+                        DEMOGRAPHICS
+                    </span>
+                </h1>
+                
+                <div class="textgrid">
+                    <div class="gridItem">
+                        About
+                    </div>
+                    <div class="gridItem">
+                       DEMOGRAPHICAL DISTRIBUTION
+                    </div>
+                    <div class="gridItem">
+                        <div class="paragraph">
+                            presents a collection of photographs capturing the essence of Bergmannstraße, a vibrant street in Berlin's Bergmannkiez neighborhood. This series offers a ground-level perspective, showcasing the architectural diversity, commercial vibrancy, and cultural richness of the area. Each image documents various facets of the street life, from the bustling cafés and shops to the serene moments of everyday life. The collection serves as a visual archive, providing insights into the urban landscape and the community's dynamics. Through detailed imagery, the project aims to convey the unique character and atmosphere of Bergmannstraße, reflecting its significance within Berlin's urban tapestry.
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        
+    <div class="charts">
+        <div id="chartContainer" >
+            <iframe title="Kiezbasd" aria-label="Grouped Bars" id="datawrapper-chart-bDXVH" src="https://datawrapper.dwcdn.net/bDXVH/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="853" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+        
+        <div id="chartContainer">
+            <iframe title="Deaths" aria-label="Grouped Bars" id="datawrapper-chart-S5AJe" src="https://datawrapper.dwcdn.net/S5AJe/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="183" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        <div id="chartContainer">
+            <iframe title="Arrivals and departures" aria-label="Grouped Bars" id="datawrapper-chart-vBL7K" src="https://datawrapper.dwcdn.net/vBL7K/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="156" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+        
+        <div id="chartContainer">
+            <iframe title="Population" aria-label="Grouped Bars" id="datawrapper-chart-gcaaU" src="https://datawrapper.dwcdn.net/gcaaU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="183" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+       
+        <div id="chartContainer">
+            <iframe title="Internal migration" aria-label="Grouped Bars" id="datawrapper-chart-jyg1Z" src="https://datawrapper.dwcdn.net/jyg1Z/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="443" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+       
+        <div id="chartContainer">
+            <iframe title="Internal migration (Copy)" aria-label="Grouped Bars" id="datawrapper-chart-fKbAQ" src="https://datawrapper.dwcdn.net/fKbAQ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="352" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+        
+        <div id="chartContainer">
+            <iframe title="Foreigners and naturalized persons" aria-label="Grouped Bars" id="datawrapper-chart-3riU8" src="https://datawrapper.dwcdn.net/3riU8/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="210" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        <div id="chartContainer">
+            <iframe title="Population by vocational educational qualification" aria-label="Grouped Bars" id="datawrapper-chart-CRuNU" src="https://datawrapper.dwcdn.net/CRuNU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="340" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        <div id="chartContainer">
+            <iframe title="Households and household size" aria-label="Grouped Bars" id="datawrapper-chart-hmxj9" src="https://datawrapper.dwcdn.net/hmxj9/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="335" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        
+        <div id="chartContainer">
+            <iframe title="Population aged 15 to under 65 by labor force participation and gender" aria-label="Grouped Bars" id="datawrapper-chart-3edAu" src="https://datawrapper.dwcdn.net/3edAu/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="475" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        <div id="chartContainer">
+            <iframe title="Net household income" aria-label="Grouped Bars" id="datawrapper-chart-cdb3Y" src="https://datawrapper.dwcdn.net/cdb3Y/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="264" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        <div id="chartContainer">
+            <iframe title="Living arrangements by type of living arrangement" aria-label="Grouped Bars" id="datawrapper-chart-Qjvwk" src="https://datawrapper.dwcdn.net/Qjvwk/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="376" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        <div id="chartContainer">
+            <iframe title="European elections" aria-label="Grouped Bars" id="datawrapper-chart-a0tZg" src="https://datawrapper.dwcdn.net/a0tZg/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="183" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        <div id="chartContainer">
+            <iframe title="Federal election" aria-label="Grouped Bars" id="datawrapper-chart-LWf3K" src="https://datawrapper.dwcdn.net/LWf3K/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="183" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>  
+        </div>
+
+        <div id="chartContainer">
+           <iframe title="House of Representatives election" aria-label="Grouped Bars" id="datawrapper-chart-rXiJj" src="https://datawrapper.dwcdn.net/rXiJj/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="183" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        <div id="chartContainer">
+            <iframe title="Elections to the Berlin House of Representatives and the district council assemblies" aria-label="Grouped Bars" id="datawrapper-chart-C020s" src="https://datawrapper.dwcdn.net/C020s/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="317" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        <div id="chartContainer">
+            <iframe title="Result of the election to the Berlin House of Representatives" aria-label="Grouped Bars" id="datawrapper-chart-mMm2p" src="https://datawrapper.dwcdn.net/mMm2p/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="291" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        <div id="chartContainer">
+            <iframe title="Registered Germans aged 18 and over at their main residence in Berlin" aria-label="Grouped Bars" id="datawrapper-chart-nyLwP" src="https://datawrapper.dwcdn.net/nyLwP/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="335" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+        <div id="chartContainer">
+            <iframe title="Registered residents under the age of 65 in SGB II - communities of need (&quot;Hartz IV&quot;)" aria-label="Grouped Bars" id="datawrapper-chart-5aARy" src="https://datawrapper.dwcdn.net/5aARy/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="199" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+            </script>
+        </div>
+
+      
+        
+         
+    </div>  
+       
+
+           
     
-
-
-
-        <script src="../JS /burger-menu.js"></script>    
-        <script src="/JS /charts.js"></script>    
     </body>
 </html>
