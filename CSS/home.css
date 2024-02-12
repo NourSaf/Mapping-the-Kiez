@@ -22,7 +22,7 @@ body{
 }
 
 .homeheader{
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Space Mono', monospace;
     font-weight: 300;
     color: rgb(0, 0, 0);
@@ -40,4 +40,13 @@ body{
 .img01{
     width: 100vw;
     height: 100vh;  
+}
+
+
+.cover{
+    font-size: 100px;
+    background: yellow;
+    padding-left: 225px;
+    padding-right: 225px;
+    padding-bottom: 12px;
 }

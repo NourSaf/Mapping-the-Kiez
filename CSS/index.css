@@ -6,8 +6,11 @@
 @import url(./home.css);
 @import url(/CSS/demographics.css);
 
+@import url(/CSS/documentation.css);
+
 ::selection{
     background-color: yellow;
     color: black;
     padding: 10px;
 }
+
