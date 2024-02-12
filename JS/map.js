@@ -1,9 +1,11 @@
-var map = L.map('map').setView([52.489415, 13.392281], 17);
+var map = L.map('map').setView([52.489553, 13.391080],  17.5);
+
+
 
 L.tileLayer('https://api.mapbox.com/styles/v1/nour-safadi/clrdolfht00ce01p409vphilw/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoibm91ci1zYWZhZGkiLCJhIjoiY2xwNnh5d2FnMXhsaTJqcWs4ZHFqNXM4aiJ9.cdEJMpU6paLl1t4Lk79MvA', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
     minZoom:17,
-    maxZoom: 19,
+    maxZoom: 18,
     tileSize: 512,
     zoomOffset: -1,
 }).addTo(map);
@@ -591,9 +593,10 @@ var social = {
 
 
     
-var initialLat =52.489415;
-var initialLng = 13.392281;
+var initialLat = 52.489553;
+var initialLng = 13.391080;
 var initialZoom = 17.5;
+ 
 
 function resetMapView() {
     map.setView([initialLat, initialLng], initialZoom);
