@@ -30,6 +30,8 @@
                 <a href="/HTML/map-culture.html"> <div class="menu-item">TRADINGS</div></a>
                 <a href="/HTML/bergmannPhotos/bergmanfotos.html"> <div class="menu-item">STREET VIEW</div></a>
                 <a href="/HTML/demografics.html"> <div class="menu-item">DEMOGRAPHICS</div></a>
+                <a href="/HTML/AI.html"> <div class="menu-item document">DOCUMENTATION</div></a>
+
         </div>
     </nav>
 
@@ -51,7 +53,7 @@
             
             <div class="gridItem">
                 <div class="paragraph">
-                    This collection serves as a comprehensive visual archive, documenting the district's architectural, environmental, and urban transitions over more than two centuries. Each map is presented in chronological order, providing a clear, visual progression of the changes and developments within Bergmannkiez. The archive is designed to offer insights into the historical layers that have contributed to the area's current urban landscape, making it a valuable resource for researchers, students, and enthusiasts of urban geography and historical cartography. Through this cartographic retrospective, viewers can trace the evolution of Bergmannkiez, gaining a deeper understanding of the factors that have influenced its development through time.
+                    The interactive map is a dynamic visualization tool designed to explore the multifaceted landscape of a street, showcasing a variety of categories that make up its vibrant ecosystem. It allows users to navigate through distinct sections such as Retail Trade, offering insights into local shops and boutiques; Food, highlighting restaurants and cafes; Health Care, pinpointing medical facilities and pharmacies; Supermarkets, for grocery shopping locations; Spätis, revealing the uniquely Berlin convenience stores that stay open late; Social Places, which includes bars, clubs, and gathering spots; and Services, covering a range of utilities from banking to laundry. This map serves as a comprehensive guide, enabling users to discover and interact with the street's social, cultural, and economic offerings, enriching their understanding and experience of the area.
                 </div>
             </div>
         </div>
@@ -62,19 +64,18 @@
     <section class="map-section">
         <div id="map"></div>
         <div class="category-switches">
+            <button id="resetMapView" class="resetMapView" >Reset View</button>
             <button onclick="toggleCategoryVisibility('retailTrade')" style="background-color: #FFCD29;">Retail Trade</button>
             <button onclick="toggleCategoryVisibility('food')" style="background-color: #F24822;">Food</button>
             <button onclick="toggleCategoryVisibility('healthcare')" style="background-color: #0D99FF;">Health care</button>
             <button onclick="toggleCategoryVisibility('supermarket')" style="background-color: #14AE5C;">Supermarkets</button>
-            <button onclick="toggleCategoryVisibility('spaeti')" style="background-color: #B1FFA4;">Spätis</button>
+            <button onclick="toggleCategoryVisibility('spaeti')" style="background-color: #140098;">Spätis</button>
             <button onclick="toggleCategoryVisibility('social')" style="background-color: #ff00b7;">Social Places</button>
             <button onclick="toggleCategoryVisibility('service')" style="background-color: #a22d81;">Services</button>
-            <!-- Repeat for other categories -->
         </div> 
-        <button id="resetMapView" class="resetMapView" >Reset View</button>
 
     </section>
-
+ 
 
 
     <script src="../JS /map.js"></script>
